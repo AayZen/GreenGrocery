@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ================= META ================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>GreenGrocery</title>
+
+  <meta name="description"
+    content="GreenGrocery is a modern responsive grocery e-commerce website built using HTML, CSS and JavaScript. Browse fresh groceries, manage your cart, checkout securely, and track your orders.">
+
+  <meta name="keywords"
+    content="GreenGrocery, Grocery Website, E-Commerce, HTML, CSS, JavaScript, Responsive Website, Portfolio Project">
+
+  <meta name="author" content="Aayan Kumar">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="GreenGrocery | Responsive Grocery E-Commerce Website">
+  <meta property="og:description" content="Modern grocery e-commerce website built using HTML, CSS and JavaScript.">
+  <meta property="og:image" content="assets/images/hero.avif">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================= LOADER ================= -->
+
+  <div class="loader" aria-hidden="true">
+    <span></span>
+  </div>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+
+    <nav class="navbar container" aria-label="Primary Navigation">
+
+      <a class="logo" href="index.html" aria-label="GreenGrocery Home">
+
+        <span>Green</span>Grocery
+
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open Navigation" aria-expanded="false">
+
+        ☰
+
+      </button>
+
+      <div class="nav-panel" id="nav-panel">
+
+        <ul class="nav-links">
+
+          <li>
+            <a href="index.html" class="active">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="products.html">
+              Products
+            </a>
+          </li>
+
+          <li>
+            <a href="orders.html">
+              Orders
+            </a>
+          </li>
+
+          <li>
+            <a href="checkout.html">
+              Checkout
+            </a>
+          </li>
+
+        </ul>
+
+        <form class="nav-search" role="search" action="products.html">
+
+          <label class="sr-only" for="site-search">
+
+            Search Groceries
+
+          </label>
+
+          <input id="site-search" name="q" type="search" placeholder="Search fresh groceries">
+
+          <button type="submit">
+
+            Search
+
+          </button>
+
+        </form>
+
+      </div>
+
+      <a class="cart-link" href="cart.html" aria-label="Shopping Cart">
+
+        Cart
+
+        <span class="cart-count">
+          0
+        </span>
+
+      </a>
+
+    </nav>
+
+  </header>
+
+  <!-- ================= MAIN ================= -->
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <p class="eyebrow">
+            Same-day delivery in your neighborhood
+          </p>
+
+          <h1>
+            Fresh groceries picked with care,
+            delivered with speed.
+          </h1>
+
+          <p>
+            Shop seasonal produce, dairy, bakery favorites,
+            pantry staples and weekly deals from GreenGrocery.
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="btn btn-primary" href="products.html">
+
+              Shop Now
+
+            </a>
+
+            <a class="btn btn-secondary" href="#categories">
+
+              Browse Categories
+
+            </a>
+
+          </div>
+
+          <div class="hero-metrics" aria-label="Store Highlights">
+
+            <span>
+
+              <strong>2K+</strong>
+
+              Daily Orders
+
+            </span>
+
+            <span>
+
+              <strong>45 Min</strong>
+
+              Express Delivery
+
+            </span>
+
+            <span>
+
+              <strong>4.9 ★</strong>
+
+              Customer Rating
+
+            </span>
+
+          </div>
+
+        </div>
+
+        <!-- Promo Card -->
+
+        <div class="promo-card" aria-label="Weekend Promotion">
+
+          <img src="assets/images/promo.avif" alt="Fresh vegetables and fruits" loading="lazy">
+
+          <div>
+
+            <span>
+
+              Weekend Basket
+
+            </span>
+
+            <strong>
+
+              Save 25% on Organic Produce
+
+            </strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="section container" id="categories">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+
+          Popular Departments
+
+        </p>
+
+        <h2>
+
+          Shop by Category
+
+        </h2>
+
+      </div>
+
+      <div class="category-grid">
+
+        <a class="category-card" href="products.html?category=Fruits">
+
+          <span class="category-logo">
+
+            Fr
+
+          </span>
+
+          <span>
+
+            Fruits
+
+          </span>
+
+          <small>
+
+            Juicy Picks
+
+          </small>
+
+        </a>
+
+        <a class="category-card" href="products.html?category=Vegetables">
+
+          <span class="category-logo">
+
+            Vg
+
+          </span>
+
+          <span>
+
+            Vegetables
+
+          </span>
+
+          <small>
+
+            Farm Fresh
+
+          </small>
+
+        </a>
+
+        <a class="category-card" href="products.html?category=Dairy">
+
+          <span class="category-logo">
+
+            Dy
+
+          </span>
+
+          <span>
+
+            Dairy
+
+          </span>
+
+          <small>
+
+            Daily Basics
+
+          </small>
+
+        </a>
+
+        <a class="category-card" href="products.html?category=Bakery">
+
+          <span class="category-logo">
+
+            Bk
+
+          </span>
+
+          <span>
+
+            Bakery
+
+          </span>
+
+          <small>
+
+            Freshly Baked
+
+          </small>
+
+        </a>
+
+        <a class="category-card" href="products.html?category=Beverages">
+
+          <span class="category-logo">
+
+            Bv
+
+          </span>
+
+          <span>
+
+            Beverages
+
+          </span>
+
+          <small>
+
+            Cool Sips
+
+          </small>
+
+        </a>
+
+        <a class="category-card" href="products.html?category=Snacks">
+
+          <span class="category-logo">
+
+            Sn
+
+          </span>
+
+          <span>
+
+            Snacks
+
+          </span>
+
+          <small>
+
+            Healthy Treats
+
+          </small>
+
+        </a>
+
+      </div>
+
+    </section>
+    <!-- ================= FEATURED PRODUCTS ================= -->
+
+    <section class="section section-soft">
+
+      <div class="container">
+
+        <div class="section-heading split">
+
+          <div>
+
+            <p class="eyebrow">
+              Featured Products
+            </p>
+
+            <h2>
+              Fresh Deals for Your Basket
+            </h2>
+
+          </div>
+
+          <a href="products.html" class="text-link">
+
+            View All Products
+
+          </a>
+
+        </div>
+
+        <div class="product-grid featured-grid" data-featured-products>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ================= BENEFITS ================= -->
+
+    <section class="section container">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          Why Choose GreenGrocery
+        </p>
+
+        <h2>
+          Groceries Made Simpler
+        </h2>
+
+      </div>
+
+      <div class="benefit-grid">
+
+        <article class="benefit">
+
+          <h3>
+            Quality Checked
+          </h3>
+
+          <p>
+            Every order is packed by trained shoppers who
+            carefully select ripe, fresh, and high-quality
+            products.
+          </p>
+
+        </article>
+
+        <article class="benefit">
+
+          <h3>
+            Cold-Chain Delivery
+          </h3>
+
+          <p>
+            Dairy products and beverages stay fresh using
+            temperature-controlled packaging throughout delivery.
+          </p>
+
+        </article>
+
+        <article class="benefit">
+
+          <h3>
+            Flexible Checkout
+          </h3>
+
+          <p>
+            Pay securely online or choose Cash on Delivery
+            for maximum convenience.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+
+    <section class="section testimonials">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="eyebrow">
+            Customer Testimonials
+          </p>
+
+          <h2>
+            Loved by Busy Households
+          </h2>
+
+        </div>
+
+        <div class="testimonial-grid">
+
+          <blockquote>
+
+            <p>
+              "The produce is consistently fresh,
+              and the delivery window is actually reliable."
+            </p>
+
+            <cite>
+              Riya M., Home Chef
+            </cite>
+
+          </blockquote>
+
+          <blockquote>
+
+            <p>
+              "The filters make weekly shopping quick.
+              I can refill my cart in under ten minutes."
+            </p>
+
+            <cite>
+              Aarav S., Product Manager
+            </cite>
+
+          </blockquote>
+
+          <blockquote>
+
+            <p>
+              "GreenGrocery feels polished,
+              responsive and practical,
+              especially on mobile devices."
+            </p>
+
+            <cite>
+              Neha K., UI Designer
+            </cite>
+
+          </blockquote>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section class="newsletter">
+
+      <div class="container newsletter-grid">
+
+        <div>
+
+          <p class="eyebrow">
+            Fresh in Your Inbox
+          </p>
+
+          <h2>
+            Get Weekly Deals & Seasonal Tips
+          </h2>
+
+        </div>
+
+        <form class="newsletter-form" data-newsletter>
+
+          <label class="sr-only" for="newsletter-email">
+
+            Email Address
+
+          </label>
+
+          <input id="newsletter-email" type="email" placeholder="you@example.com" required>
+
+          <button class="btn btn-primary" type="submit">
+
+            Subscribe
+
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <a class="logo footer-logo" href="index.html">
+
+          <span>Green</span>Grocery
+
+        </a>
+
+        <p>
+          A modern grocery e-commerce website built
+          using HTML, CSS and JavaScript.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>
+          Developer
+        </h3>
+
+        <p>
+          Aayan Kumar
+        </p>
+
+        <p>
+          Frontend Developer
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>
+          Connect
+        </h3>
+
+        <div class="social-links">
+
+          <a href="https://github.com/AayZen" target="_blank" rel="noopener noreferrer">
+
+            GitHub
+
+          </a>
+
+          <a href="https://linkedin.com/in/aayzen" target="_blank" rel="noopener noreferrer">
+
+            LinkedIn
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- ================= BACK TO TOP ================= -->
+
+  <button class="back-to-top" type="button" aria-label="Back to Top">
+
+    ↑
+
+  </button>
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
