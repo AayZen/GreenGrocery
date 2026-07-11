@@ -23,23 +23,23 @@ A modern, responsive grocery e-commerce website built using **HTML, CSS, and Jav
 
 
 ### 🛍 Products Page
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8a4c54d-d0ca-4d52-b80b-2c19956e60eb" />
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8a4c54d-d0ca-4d52-b80b-2c19956e60eb" />](https://green-grocery.vercel.app/products.html)
 
 
 ### 📦 Product Details
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f6205a7-31ac-4dab-a808-be5a6a107d23" />
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f6205a7-31ac-4dab-a808-be5a6a107d23" />](http://127.0.0.1:5500/product-details.html?id=7)
 
 
 ### 🛒 Shopping Cart
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4fa31421-745e-46b9-9cba-9a4aa0f225fb" />
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4fa31421-745e-46b9-9cba-9a4aa0f225fb" />](https://green-grocery.vercel.app/cart.html)
 
 
 ### 💳 Checkout
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3591c2b-86e3-4c02-9327-7d8fcf30eea2" />
-
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3591c2b-86e3-4c02-9327-7d8fcf30eea2" />
+](http://127.0.0.1:5500/checkout.html)
 
 ### 🚚 Orders Page
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/effe9ef2-f91d-4161-bf63-bf91971fa23e" />
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/effe9ef2-f91d-4161-bf63-bf91971fa23e" />](https://green-grocery.vercel.app/orders.html)
 
 
 ---
