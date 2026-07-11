@@ -21,22 +21,28 @@ A modern, responsive grocery e-commerce website built using **HTML, CSS, and Jav
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b886e42b-f98d-44e8-91f6-fd43a87bf358" />
+
 
 ### 🛍 Products Page
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8a4c54d-d0ca-4d52-b80b-2c19956e60eb" />
+
 
 ### 📦 Product Details
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f6205a7-31ac-4dab-a808-be5a6a107d23" />
+
 
 ### 🛒 Shopping Cart
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4fa31421-745e-46b9-9cba-9a4aa0f225fb" />
+
 
 ### 💳 Checkout
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f3591c2b-86e3-4c02-9327-7d8fcf30eea2" />
+
 
 ### 🚚 Orders Page
-> *(Add Screenshot)*
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/effe9ef2-f91d-4161-bf63-bf91971fa23e" />
+
 
 ---
 
