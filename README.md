@@ -19,7 +19,7 @@ A modern, responsive grocery e-commerce website built using **HTML, CSS, and Jav
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b886e42b-f98d-44e8-91f6-fd43a87bf358" />
+> [<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b886e42b-f98d-44e8-91f6-fd43a87bf358" />](https://green-grocery.vercel.app/)
 
 
 ### 🛍 Products Page
