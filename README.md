@@ -1,182 +1,95 @@
-# 🛒 GreenGrocery – Responsive E-Commerce Grocery Website
+# 🛒 GreenGrocery
 
-A modern, responsive multi-page grocery e-commerce website built using **HTML5, CSS3, and Vanilla JavaScript**. GreenGrocery provides a complete online shopping experience with product browsing, filtering, wishlist management, shopping cart, checkout, and order tracking—all powered by LocalStorage without any backend.
+A modern, responsive grocery e-commerce website built using **HTML, CSS, and JavaScript**. GreenGrocery provides a clean shopping experience with product browsing, search, filtering, shopping cart, checkout, and order tracking.
 
----
-
-## 🌐 Live Demo
-
-> 🔗 https://your-vercel-link.vercel.app
-
-*(Replace with your deployed Vercel/Netlify URL)*
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-### 🏠 Home Page
-> *(Add Screenshot)*
+> Add screenshots inside the `screenshots` folder and replace the image paths below.
 
-### 🛍 Products Page
-> *(Add Screenshot)*
+### Home Page
 
-### 📦 Product Details
-> *(Add Screenshot)*
+![Home](screenshots/home.png)
 
-### 🛒 Shopping Cart
-> *(Add Screenshot)*
+### Products Page
 
-### 💳 Checkout
-> *(Add Screenshot)*
+![Products](screenshots/products.png)
 
-### 🚚 Orders Page
-> *(Add Screenshot)*
+### Product Details
 
----
+![Product Details](screenshots/product-details.png)
 
-# ✨ Features
+### Shopping Cart
 
-### 🏠 Home Page
-- Modern Hero Section
-- Featured Products
-- Product Categories
-- Customer Testimonials
-- Newsletter Subscription
-- Responsive Navigation
+![Cart](screenshots/cart.png)
+
+### Checkout
+
+![Checkout](screenshots/checkout.png)
 
 ---
 
-### 🛍 Product Catalog
-- View all products
-- Product Search
-- Category Filter
-- Sort by
-  - Featured
-  - Price (Low → High)
-  - Price (High → Low)
-  - Top Rated
-- In-stock Filter
-- Responsive Product Grid
+## ✨ Features
+
+- 🛍️ Modern grocery e-commerce interface
+- 📱 Fully responsive design
+- 🔍 Product search functionality
+- 🗂️ Category filtering
+- 📊 Product sorting
+- ❤️ Wishlist support
+- 🛒 Shopping cart with quantity management
+- 💳 Checkout page
+- 📦 Order tracking
+- 💰 Dynamic price calculation
+- 🚚 Delivery fee calculation
+- 🧾 Tax calculation
+- 📈 Order summary
+- 🔝 Back-to-top button
+- 📧 Newsletter subscription
+- 💾 Local Storage support
+- ⚡ Fast loading local AVIF images
 
 ---
 
-### 📦 Product Details
-- Large Product Image
-- Product Description
-- Price & Rating
-- Quantity Selector
-- Related Products
-- Add to Cart
-
----
-
-### ❤️ Wishlist
-- Add Products to Wishlist
-- Remove from Wishlist
-- Wishlist stored using LocalStorage
-
----
-
-### 🛒 Shopping Cart
-- Add Products
-- Remove Products
-- Increase Quantity
-- Decrease Quantity
-- Live Price Updates
-- Order Summary
-- Delivery Charges
-- Tax Calculation
-
----
-
-### 💳 Checkout
-- Customer Information Form
-- Delivery Address
-- Delivery Slot Selection
-- Multiple Payment Methods
-
-Supported Payments
-
-- Visa
-- Mastercard
-- UPI
-- Cash on Delivery
-
----
-
-### 🚚 Orders
-- Place Orders
-- Order Confirmation
-- Order History
-- Delivery Status Tracking
-
----
-
-### 📱 Responsive Design
-
-Fully Responsive for
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-### 🎨 UI Features
-
-- Modern Clean UI
-- Responsive Navigation
-- Sticky Header
-- Smooth Scrolling
-- Loading Animation
-- Hover Effects
-- Beautiful Cards
-- Toast Notifications
-- Accessible Forms
-
----
-
-### ⚡ JavaScript Features
-
-- Dynamic Product Rendering
-- LocalStorage
-- Shopping Cart Logic
-- Wishlist Management
-- Search Functionality
-- Product Filtering
-- Sorting
-- Order Management
-- Checkout Validation
-- Quantity Controls
-
----
-
-# 🛠 Tech Stack
-
-### Frontend
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-
-### Storage
-
-- Browser LocalStorage
-
-### Design
-
-- Responsive Design
-- Flexbox
-- CSS Grid
-- CSS Variables
+- Local Storage API
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 GreenGrocery/
+│
+├── assets/
+│   └── images/
+│       ├── hero.avif
+│       ├── page-hero.avif
+│       ├── promo.avif
+│       ├── bananas.avif
+│       ├── apples.avif
+│       ├── spinach.avif
+│       ├── tomatoes.avif
+│       ├── milk.avif
+│       ├── yogurt.avif
+│       ├── juice.avif
+│       ├── sparkling-water.avif
+│       ├── bread.avif
+│       ├── croissant.avif
+│       ├── almonds.avif
+│       ├── chips.avif
+│       └── favicon.avif
 │
 ├── index.html
 ├── products.html
@@ -184,128 +97,81 @@ GreenGrocery/
 ├── cart.html
 ├── checkout.html
 ├── orders.html
-│
 ├── styles.css
 ├── script.js
-│
 ├── README.md
-│
-└── assets/
-    ├── images/
-    └── screenshots/
+└── LICENSE
 ```
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
-## Clone Repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/GreenGrocery.git
+git clone https://github.com/AayZen/GreenGrocery.git
 ```
 
----
-
-## Navigate to Project
+Open the project folder:
 
 ```bash
 cd GreenGrocery
 ```
 
----
+Launch the project by opening:
 
-## Run Project
-
-Simply open
-
-```
+```text
 index.html
 ```
 
-in your browser.
-
-or use
-
-```
-Live Server
-```
-
-inside VS Code.
+or use the **Live Server** extension in VS Code.
 
 ---
 
-# 💡 Future Improvements
+## 💡 Future Improvements
 
 - User Authentication
-- Firebase Backend
 - Admin Dashboard
 - Payment Gateway Integration
+- Backend API
 - Product Reviews
-- Coupons & Discounts
-- Order Tracking API
+- Coupon System
+- Order History Database
 - Dark Mode
 - PWA Support
-- Voice Search
-- AI Product Recommendation
 
 ---
 
-# 📊 Project Highlights
+## 📊 Project Highlights
 
-- ✅ 8 Responsive Pages
-- ✅ 12+ Dynamic Products
-- ✅ Product Search
-- ✅ Category Filtering
-- ✅ Sorting
-- ✅ Wishlist
-- ✅ Shopping Cart
-- ✅ Checkout Workflow
-- ✅ Order Tracking
-- ✅ LocalStorage Integration
-- ✅ Mobile Responsive
-- ✅ Semantic HTML
-- ✅ Modern CSS
-- ✅ Vanilla JavaScript
+- Responsive on Desktop, Tablet & Mobile
+- Semantic HTML5
+- Modular JavaScript
+- Local Storage Cart
+- Dynamic Product Rendering
+- Lazy Loaded Images
+- Clean UI
+- SEO Friendly
+- Portfolio Ready
 
 ---
 
-# 📈 Learning Outcomes
+## 👨‍💻 Author
 
-Through this project, I gained practical experience in:
-
-- Building responsive multi-page websites
-- DOM Manipulation
-- JavaScript ES6
-- LocalStorage API
-- Form Validation
-- UI/UX Design
-- CSS Grid & Flexbox
-- State Management
-- Responsive Design Principles
-- Accessibility Best Practices
-
----
-
-# 📄 License
-
-This project is developed for educational and portfolio purposes.
-
----
-
-# 👨‍💻 Author
-
-## Aayan Kumar
-
-**B.Tech Computer Science Engineering**
-
-UI/UX Designer • Frontend Developer • AI & Web Enthusiast
-
-### Connect with me
+**Aayan Kumar**
 
 - GitHub: https://github.com/AayZen
 - LinkedIn: https://linkedin.com/in/aayzen
 
 ---
 
-⭐ If you like this project, don't forget to **Star** the repository!
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
