@@ -14,8 +14,6 @@ A modern, responsive grocery e-commerce website built using **HTML, CSS, and Jav
 
 > 🔗 [https://your-vercel-link.vercel.app](https://green-grocery.vercel.app/)
 
-*(Replace with your deployed Vercel/Netlify URL)*
-
 ---
 
 ## 📸 Screenshots
